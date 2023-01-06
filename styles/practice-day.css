@@ -50,6 +50,11 @@ body {
     border: none;
     border-radius: 5px;
     padding: 15px 25px;
+    text-decoration: none;
+}
+.banner-button-link {
+    text-decoration: none;
+    color: white;
 }
 
 button:hover {
@@ -72,9 +77,10 @@ button:hover {
     color: rgb(99, 93, 93);
     font-size: 20px;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     position: relative;
+    padding: 0px 150px;
 }
 .money-button{
     color: rgb(84, 81, 81);
@@ -96,6 +102,10 @@ button:hover {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+.mnybttnlink{
+    text-decoration: none;
+    color: rgb(84, 81, 81);
+}
 hr {
     color: rgb(83, 82, 82);
     width: 1000px;
@@ -112,6 +122,10 @@ hr {
     padding: 15px 25px;
     margin-top: 40px;
 }
+.sec2-button-link{
+    text-decoration: none;
+    color: white;
+}
 /* section 3 our donate plan */
 .sec3header{
     color: rgb(45, 44, 44);
@@ -124,9 +138,10 @@ hr {
     color: rgb(99, 93, 93);
     font-size: 20px;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     position: relative;
+    padding: 0px 150px;
 }
 .sec4 {
     display: flex;
@@ -157,4 +172,100 @@ hr {
 }
 .flex-parag {
     padding: 0 25px;
+}
+/* section pic 1 */
+.pic1flex {
+    display: flex;
+    margin: 180px 250px 150px 150px;
+    gap: 80px;
+}
+.pic1header{
+    color: rgb(45, 44, 44);
+    font-size: 55px;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 45px;
+}
+.pic1paragraph{
+    color: rgb(45, 44, 44);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+.pic2paragraph{
+    margin-top: 10px;
+    color: rgb(45, 44, 44);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+.button1{
+    color: white;
+    background-color: rgb(230, 83, 5);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    margin-top: 10px;
+}
+.contribute-button{
+    text-decoration: none;
+    color: white;
+}
+.image1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 5px;
+}
+/* section 4 get my updates */
+.sec4div{
+    padding: 0px 10px;
+}
+.sec4header{
+    color: rgb(45, 44, 44);
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+.sec4parag{
+    color: rgb(99, 93, 93);
+    font-size: 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    position: relative;
+    padding: 0px 150px;
+}
+/* email input */
+.email-box-container{
+    background-color: rgba(253, 233, 182, 0.5);
+    padding: 100px 40px;
+    margin: 100px 500px;
+    border-radius: 5px;
+}
+.email-box{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+   border-radius: 50px;
+   
+}
+.email-button{
+    background-color: rgb(202, 201, 201);
+    border: none;
+    outline: none;
+    padding: 5px 45px;
+}
+.subs-button{
+    color: white;
+    background-color: rgb(230, 83, 5);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 45px;
+    border: none;
+    outline: none;
+    
 }
