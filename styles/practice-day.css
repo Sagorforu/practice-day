@@ -250,8 +250,7 @@ hr {
     height: 50px;
     display: flex;
     justify-content: center;
-   border-radius: 50px;
-   
+   border-radius: 50px;   
 }
 .email-button{
     background-color: rgb(202, 201, 201);
@@ -259,7 +258,7 @@ hr {
     outline: none;
     padding: 5px 20px;
     font-size: 20px;
-    border-radius: 5px;
+    border-radius: 5px 0 0px 5px
 }
 .subs-button{
     color: white;
@@ -269,7 +268,8 @@ hr {
     padding: 5px 45px;
     border: none;
     outline: none;
-    border-radius: 5px;
+    margin-left: -10px;
+    border-radius: 0 5px 5px 0;
 }
 /* footer section */
 .footer-container{
